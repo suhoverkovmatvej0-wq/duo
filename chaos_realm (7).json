@@ -1,0 +1,17 @@
+{
+  "type": "duo_chaos:chaos_realm",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        {"block": "minecraft:bedrock", "height": 1},
+        {"block": "minecraft:obsidian", "height": 2},
+        {"block": "minecraft:crying_obsidian", "height": 1}
+      ],
+      "structures": {"structures": {}}
+    }
+  }
+}

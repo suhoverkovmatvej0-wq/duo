@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="duo_chaos"
+version="1.0.0"
+displayName="DUO CHAOS"
+description='''Выживание вдвоём: случайные события, воришки, утки-убийцы, необычное оружие и Король Хаоса.'''
+
+[[dependencies.duo_chaos]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.duo_chaos]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
